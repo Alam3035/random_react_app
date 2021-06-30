@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Welcome {
+  padding-left: 1em;
+}
+
+.Clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
