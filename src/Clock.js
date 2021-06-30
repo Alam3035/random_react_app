@@ -3,13 +3,15 @@ import React from "react";
 class Clock extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {date: new Date()};
+        this.state = {
+            date: new Date()
+        };
     }
 
     // these are lifecycle methods
 
     // runs after the component output has benn rendered to DOM
-    compomentDidMount() {
+    componentDidMount() {
         this.timerID = setInterval(() => this.tick(), 1000);
     }
 
@@ -18,7 +20,9 @@ class Clock extends React.Component {
     }
 
     tick() {
-        this.setState({date: new Date()});
+        this.setState({
+            date: new Date()
+        });
     }
 
     render() {

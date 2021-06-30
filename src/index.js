@@ -5,6 +5,9 @@ import App from './App';
 import Welcome from './Welcome';
 import Comment from './Comment';
 import Clock from './Clock';
+import Toggle from './Toggle';
+import LoginControl from './LoginControl';
+import Page from './Page';
 import reportWebVitals from './reportWebVitals';
 
 const author = {
@@ -19,7 +22,12 @@ ReactDOM.render(
     <Welcome name="Husnan Alam" />
     <Welcome name="Someone Here" />
     <Comment text="some comment" date="2021-06-29" author={author} />
-    <Clock />,
+    <Clock />
+    <Clock />
+    <Clock />
+    <Toggle />
+    <LoginControl />
+    <Page />
   </React.StrictMode>,
   document.getElementById('root')
 );
