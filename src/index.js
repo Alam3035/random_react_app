@@ -8,12 +8,15 @@ import Clock from './Clock';
 import Toggle from './Toggle';
 import LoginControl from './LoginControl';
 import Page from './Page';
+import NumberList from './NumberList';
 import reportWebVitals from './reportWebVitals';
 
 const author = {
   name: 'Hello Kitty',
   avatarUrl: 'https://placekitten.com/g/64/64'
 }
+
+const numbers = [1,2,3,4,5]
 
 ReactDOM.render(
   <React.StrictMode>
@@ -28,6 +31,7 @@ ReactDOM.render(
     <Toggle />
     <LoginControl />
     <Page />
+    <NumberList numbers={numbers}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
