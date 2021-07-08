@@ -88,3 +88,19 @@ code {
   align-items: center;
   min-height: 100vh;
 }
+
+.Blog {
+  color: white;
+  background-color: rgb(218, 17, 94);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  min-height: 100vh;
+}
+
+hr {
+  width: 100%;
+}

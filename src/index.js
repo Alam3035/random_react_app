@@ -9,6 +9,7 @@ import Toggle from './Toggle';
 import LoginControl from './LoginControl';
 import Page from './Page';
 import NumberList from './NumberList';
+import Blog from './Blog';
 import reportWebVitals from './reportWebVitals';
 
 const author = {
@@ -17,6 +18,10 @@ const author = {
 }
 
 const numbers = [1,2,3,4,5]
+const postss = [
+  {id: 1, title: 'Hello World', content: 'Welcome to learning React!'},
+  {id: 2, title: 'Installation', content: 'You can install React from npm.'}
+];
 
 ReactDOM.render(
   <React.StrictMode>
@@ -32,6 +37,7 @@ ReactDOM.render(
     <LoginControl />
     <Page />
     <NumberList numbers={numbers}/>
+    <Blog posts={postss} />
   </React.StrictMode>,
   document.getElementById('root')
 );
