@@ -15,6 +15,8 @@ import EssayForm from './EssayForm';
 import Flavorform from './FlavorForm';
 import Reservation from './Reservation';
 import Calculator from './Calculator';
+import WelcomeDialog from './WelcomeDialog';
+import SignUpDialog from './SignUpDialog';
 import reportWebVitals from './reportWebVitals';
 
 const author = {
@@ -48,6 +50,8 @@ ReactDOM.render(
     <Flavorform />
     <Reservation />
     <Calculator />
+    <WelcomeDialog />
+    <SignUpDialog />
   </React.StrictMode>,
   document.getElementById('root')
 );
