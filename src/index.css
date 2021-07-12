@@ -104,3 +104,52 @@ code {
 hr {
   width: 100%;
 }
+
+
+.formType {
+  color: white;
+  background-color: rgb(17, 47, 218);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.essayForm {
+  color: white;
+  background-color: rgb(158, 218, 17);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.flavorForm {
+  color: white;
+  background-color: rgb(84, 114, 13);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.inputSection {
+  color: white;
+  background-color: rgb(252, 165, 233);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  min-height: 100vh;
+}

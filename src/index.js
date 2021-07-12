@@ -10,6 +10,10 @@ import LoginControl from './LoginControl';
 import Page from './Page';
 import NumberList from './NumberList';
 import Blog from './Blog';
+import NameForm from './NameForm';
+import EssayForm from './EssayForm';
+import Flavorform from './FlavorForm';
+import Reservation from './Reservation';
 import reportWebVitals from './reportWebVitals';
 
 const author = {
@@ -38,6 +42,10 @@ ReactDOM.render(
     <Page />
     <NumberList numbers={numbers}/>
     <Blog posts={postss} />
+    <NameForm />
+    <EssayForm />
+    <Flavorform />
+    <Reservation />
   </React.StrictMode>,
   document.getElementById('root')
 );
