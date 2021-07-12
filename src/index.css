@@ -191,3 +191,15 @@ hr {
 .Dialog-message {
   font-size: larger;
 }
+
+.productTable{
+  color: black;
+  background-color: rgb(255, 153, 0);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  min-height: 80vh;
+}

@@ -17,6 +17,7 @@ import Reservation from './Reservation';
 import Calculator from './Calculator';
 import WelcomeDialog from './WelcomeDialog';
 import SignUpDialog from './SignUpDialog';
+import FilterableProductTable from './ProductStuff';
 import reportWebVitals from './reportWebVitals';
 
 const author = {
@@ -28,6 +29,14 @@ const numbers = [1,2,3,4,5]
 const postss = [
   {id: 1, title: 'Hello World', content: 'Welcome to learning React!'},
   {id: 2, title: 'Installation', content: 'You can install React from npm.'}
+];
+const PRODUCTS = [
+  {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+  {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+  {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+  {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
 ];
 
 ReactDOM.render(
@@ -52,6 +61,7 @@ ReactDOM.render(
     <Calculator />
     <WelcomeDialog />
     <SignUpDialog />
+    <FilterableProductTable products={PRODUCTS} />
   </React.StrictMode>,
   document.getElementById('root')
 );
