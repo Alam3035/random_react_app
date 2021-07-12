@@ -14,6 +14,7 @@ import NameForm from './NameForm';
 import EssayForm from './EssayForm';
 import Flavorform from './FlavorForm';
 import Reservation from './Reservation';
+import Calculator from './Calculator';
 import reportWebVitals from './reportWebVitals';
 
 const author = {
@@ -46,6 +47,7 @@ ReactDOM.render(
     <EssayForm />
     <Flavorform />
     <Reservation />
+    <Calculator />
   </React.StrictMode>,
   document.getElementById('root')
 );
