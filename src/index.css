@@ -203,3 +203,16 @@ hr {
   align-items: center;
   min-height: 80vh;
 }
+
+.click_button {
+  color: black;
+  background-color: rgb(76, 0, 255);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  min-height: 80vh;
+}
+
