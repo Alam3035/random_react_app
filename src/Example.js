@@ -6,14 +6,14 @@ const Example = (props) => {
 
     useEffect(() => {
         document.title = `You clicked ${count} times`;
-    })
+    }, [count])
 
     return (
         <div className="click_button">
             <p>You clicked {count} times</p>
-            <button onClick={() => setCount(count + 1)}>
-                Click Me to Increase!
-            </button>
+            <button onClick={() => setCount(props.number)}>Reset</button>
+            <button onClick={() => setCount(prevCount => prevCount - 1)}>-</button>
+            <button onClick={() => setCount(prevCount => prevCount + 1)}>+</button>
         </div>
     )
 }

@@ -216,3 +216,14 @@ hr {
   min-height: 80vh;
 }
 
+.form_title {
+  color: black;
+  background-color: rgb(194, 110, 228);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  min-height: 80vh;
+}

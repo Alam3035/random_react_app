@@ -19,6 +19,7 @@ import WelcomeDialog from './WelcomeDialog';
 import SignUpDialog from './SignUpDialog';
 import FilterableProductTable from './ProductStuff';
 import Example from './Example';
+import Form from './Form';
 import reportWebVitals from './reportWebVitals';
 
 const author = {
@@ -63,7 +64,8 @@ ReactDOM.render(
     <WelcomeDialog />
     <SignUpDialog />
     <FilterableProductTable products={PRODUCTS} />
-    <Example number={2}/>
+    <Example number={0}/>
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
